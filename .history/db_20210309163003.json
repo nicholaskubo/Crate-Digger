@@ -394,11 +394,11 @@
       },
       {
         "id": 50,
-        "album name": "+",
-        "cover": "https://images-na.ssl-images-amazon.com/images/I/81Nga9IJojL._SL1425_.jpg",
-        "artist": "Ed Sheeran",
-        "vinyl color": "Orange",
-        "format": "Vinyl, LP, Album"
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
       }
     ]
   }

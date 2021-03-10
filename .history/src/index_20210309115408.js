@@ -43,4 +43,5 @@ function showVinylInfo(vinyl) {
     format.textContent = vinyl.format
 
     vinylCard.append(title, artist, vinylColor, format)
+
 }

@@ -1,0 +1,284 @@
+{
+    "vinyl": [
+      {
+        "id": 1,
+        "album name": "After Hours",
+        "cover": "https://i.discogs.com/R-15872183-1604767995-1915.jpeg?bucket=discogs-images&expiry=1615246952609.108&fit=contain&format=auto&height=583&quality=90&width=593&signature=DIbTlwpIZ5bsNVaF%2B6%2BkL7sZRwtHm56bYtLB/NE0Bbc%3D",
+        "artist": "The Weeknd",
+        "vinyl color": "Black",
+        "format": "2 × Vinyl, LP, Album, Limited Edition, Holographic Cover, Autographed"
+      },
+      {
+        "id": 2,
+        "album name": "MM..Food",
+        "cover": "https://i.discogs.com/R-356592-1185972354.jpeg?bucket=discogs-images&expiry=1615247223311.101&fit=contain&format=auto&height=600&quality=90&width=600&signature=isqx/KtumxPNmJkbcPTqK6QMElhx0AM13g2FKyeb3bg%3D",
+        "artist": "MF DOOM",
+        "vinyl color": "Black",
+        "format": "2 × Vinyl, LP, Album"
+      },
+      {
+        "id": 3,
+        "album name": "Bandana",
+        "cover": "https://www.thestudentplaylist.com/wp-content/uploads/2019/07/freddie_gibbs_madlib_bandana.jpg",
+        "artist": "Freddie Gibbs and Madlib",
+        "vinyl color": "White",
+        "format": "Vinyl, LP, Album, Limited Edition"
+      },
+      {
+        "id": 4,
+        "album name": "Igor",
+        "cover": "https://i.discogs.com/R-14219559-1570220452-8804.jpeg?bucket=discogs-images&expiry=1615247900581.7349&fit=contain&format=auto&height=605&quality=90&width=600&signature=h/q9TptqUn8PE2wU3C/5Lyhq/xZwdFoR8NJyZkplCBM%3D",
+        "artist": "Tyler, The Creator",
+        "vinyl color": "Mint",
+        "format": "Vinyl, LP, Album, Limited Edition" 
+      },
+      {
+        "id": 5,
+        "album name": "Tyron",
+        "cover": "https://i.discogs.com/R-17393053-1613216252-3262.jpeg?bucket=discogs-images&expiry=1615248096454.7998&fit=contain&format=auto&height=600&quality=90&width=600&signature=dzI8kZcstF8xjed3Y%2BQrsbJivjl%2BEcRUV%2B3K54Q460I%3D",
+        "artist": "slowthai",
+        "vinyl color": "Red and Yellow",
+        "format": "2 × Vinyl, LP, Album, Deluxe Edition"
+      },
+      {
+        "id": 6,
+        "album name": "All My Heroes Are Cornballs",
+        "cover": "https://i.discogs.com/R-14551338-1577591405-7218.jpeg?bucket=discogs-images&expiry=1615248321417.747&fit=contain&format=auto&height=530&quality=90&width=600&signature=N7V%2BVxSSbbWPnmxyD1mKGWLYBXd6dnffiwHKvFLApCQ%3D",
+        "artist": "JPEGMAFIA",
+        "vinyl color": "Black",
+        "format": "2 × Vinyl, LP, Album, Alternate Cover"
+      },
+      {
+        "id": 7,
+        "album name": "Stranger",
+        "cover": "https://media.pitchfork.com/photos/59f9f6110f8bbf5002e775db/1:1/w_320/Stranger_Yung%20Lean.jpg",
+        "artist": "Yung Lean",
+        "vinyl color": "Red w/ Black Splatter",
+        "format": "2 × Vinyl, LP, Album, Limited Edition"
+      },
+      {
+        "id": 8,
+        "album name": "Beerbongs & Bentleys",
+        "cover": "https://i.discogs.com/R-12705859-1549143751-9222.jpeg?bucket=discogs-images&expiry=1615248812691.15&fit=contain&format=auto&height=342&quality=90&width=342&signature=U4ngFm6uBlC5AVn16zdegL4TzShJY1Srb55Z3ws80FM%3D",
+        "artist": "Post Malone",
+        "vinyl color": "Clear",
+        "format": "2 × Vinyl, LP, Album, Alternate Cover"
+      },
+      {
+        "id": 9,
+        "album name": "Ctrl",
+        "cover": "https://target.scene7.com/is/image/Target/GUEST_aee1a6cd-ab50-4208-952a-19c2f0e5a505?wid=488&hei=488&fmt=pjpeg",
+        "artist": "SZA",
+        "vinyl color": "Green Translucent",
+        "format": "2 × Vinyl, LP, Album"
+      },
+      {
+        "id": 10,
+        "album name": "Rodeo",
+        "cover": "https://i.discogs.com/R-7830895-1449700053-9358.jpeg?bucket=discogs-images&expiry=1615251052591.634&fit=contain&format=auto&height=600&quality=90&width=600&signature=yN7rdMKazW/37MHPaF8Ys/SVnxTzh7UAgs8fy64n3jE%3D",
+        "artist": "Travis Scott",
+        "vinyl color": "Black",
+        "format": "2 × Vinyl, LP, Album"
+      },
+      {
+        "id": 11,
+        "album name": "Circles",
+        "cover": "https://lh3.googleusercontent.com/proxy/cRtLaz1uwRKDSs-PGRYsP3_XXnHXc10yQOvQr9I4DmjRKlWSilQHkSY9SJKSd6-mc6sYYjygqGRbE1MWGxpn9MOQd1xvpvUFPAEiapmGUXoVAnbRugBxyg",
+        "artist": "Mac Miller",
+        "vinyl color": "Clear",
+        "format": "2 × Vinyl, LP, Album"
+      },
+      {
+        "id": 12,
+        "album name": "B4.DA.$$",
+        "cover": "https://images.genius.com/2556b30c7966364ad36e8531661e7855.600x600x1.jpg",
+        "artist": "Joey Bada$$",
+        "vinyl color": "Black",
+        "format": "2 × Vinyl, LP, Album"
+      },
+      {
+        "id": 13,
+        "album name": "Some Rap Songs",
+        "cover": "https://images.genius.com/af5a80cb485050a3ef6e70b12703a0b2.1000x1000x1.jpg",
+        "artist": "Earl Sweatshirt",
+        "vinyl color": "Black",
+        "format": "Vinyl, LP, Album"
+      },
+      {
+        "id": 14,
+        "album name": "My Beautiful Dark Twisted Fantasy",
+        "cover": "https://thesource.com/wp-content/uploads/2019/11/mbdtf.jpg",
+        "artist": "Kanye West",
+        "vinyl color": "Black",
+        "format": "3 × Vinyl, LP, Album, Limited Edition"
+      },
+      {
+        "id": 15,
+        "album name": "6 Feet Beneath The Moon",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/91W8P%2BQtMIL._SL1500_.jpg",
+        "artist": "King Krule",
+        "vinyl color": "Block",
+        "format": "2 × Vinyl, LP, Album"
+      },
+      {
+        "id": 16,
+        "album name": "Random Access Memories",
+        "cover": "https://img.discogs.com/ktzQ3S3fCH0JdARDarptt0Ir55Y=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4570366-1539295092-6087.png.jpg",
+        "artist": "Daft Punk",
+        "vinyl color": "Black",
+        "format": "2 × Vinyl, LP, Album"
+      },
+      {
+        "id": 17,
+        "album name": "Piñata",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/81J9dmZ%2BlKL._SL1425_.jpg",
+        "artist": "Freddie Gibbs & Madlib",
+        "vinyl color": "Black",
+        "format": "2 × Vinyl, LP, Album"
+      },
+      {
+        "id": 18,
+        "album name": "1000 Gecs",
+        "cover": "https://f4.bcbits.com/img/a2604863078_10.jpg",
+        "artist": "100 Gecs",
+        "vinyl color": "Black",
+        "format": "Vinyl, LP, Album"
+      },
+      {
+        "id": 19,
+        "album name": "Czarface",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/91scThbhiFL._SL1500_.jpg",
+        "artist": "Czarface",
+        "vinyl color": "Orange",
+        "format": "2 × Vinyl, LP, Album, Limited Edition"
+      },
+      {
+        "id": 20,
+        "album name": "Kids See Ghosts",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/B1FqqISjsfS._AC_SL1500_.jpg",
+        "artist": "Kids See Ghosts",
+        "vinyl color": "Black",
+        "format": "Vinyl, LP, Album"
+      },
+      {
+        "id": 21,
+        "album name": "Room On Fire",
+        "cover": "https://consequenceofsound.net/wp-content/uploads/2018/10/the-strokes-room-on-fire.jpg?quality=80",
+        "artist": "The Strokes",
+        "vinyl color": "Black",
+        "format": "Vinyl, LP, Album"
+      },
+      {
+        "id": 22,
+        "album name": "R O Y A L T Y",
+        "cover": "https://i1.sndcdn.com/artworks-000026095455-128pbq-t500x500.jpg",
+        "artist": "Childish Gambino",
+        "vinyl color": "Blue Marble",
+        "format": "2 × Vinyl, LP, Mixtape, Unofficial Release"
+      },
+      {
+        "id": 23,
+        "album name": "Curls & All Caps",
+        "cover": "https://img.discogs.com/ICSf60nIfA65_TSeQnWUSYZwOc4=/fit-in/600x609/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-231449-1227994998.jpeg.jpg",
+        "artist": "Madvillain",
+        "vinyl color": "Black",
+        "format": "Vinyl, LP, Single"
+      },
+      {
+        "id": 24,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 25,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 26,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 27,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 27,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 27,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 27,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 27,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 27,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 27,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 27,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 27,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      }
+    ]
+  }

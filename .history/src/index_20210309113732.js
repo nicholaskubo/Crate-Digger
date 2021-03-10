@@ -21,7 +21,7 @@ function makeVinyl(vinyl){
     vinylCover.classList = "album-cover"
     vinylCover.src = vinyl.cover
     vinylCover.addEventListener('click', () => {
-        showVinylInfo(vinyl)
+        console.log("Hello")
     })
     
     vinylCard.appendChild(vinylCover)
@@ -31,16 +31,5 @@ function makeVinyl(vinyl){
 //Event handlers
 
 function showVinylInfo(vinyl) {
-    let vinylCard = document.getElementById(vinyl.id)
-    let title = document.createElement("h2")
-    let artist = document.createElement("h3")
-    let vinylColor = document.createElement("h4")
-    let format = document.createElement("p")
-
-    title.textContent = vinyl[`album name`]
-    artist.textContent = vinyl.artist
-    vinylColor.textContent = "Vinyl Color: " + vinyl["vinyl color"]
-    format.textContent = vinyl.format
-
-    vinylCard.append(title, artist, vinylColor, format)
+    let vinylCard
 }

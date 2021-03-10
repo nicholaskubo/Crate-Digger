@@ -1,0 +1,16 @@
+* {
+    background: #ffe6cc;
+}
+
+/* .card {
+   float: left;
+   width: 100px;
+   height: 100px;
+   background-size: cover;
+} */
+
+.album-cover {
+    justify-self: center;
+    height: 300px;
+    width: 300px;
+}

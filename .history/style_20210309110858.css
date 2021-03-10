@@ -1,5 +1,6 @@
 * {
     background: #ffe6cc;
+    justify-content: center;
 }
 
 .card {
@@ -11,7 +12,3 @@
     height: 300px;
     width: 300px;
 }
-
-/* p {
-    
-} */

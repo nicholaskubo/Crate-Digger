@@ -1,0 +1,10 @@
+* {
+    background: #ffe6cc;
+}
+
+.card {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+}

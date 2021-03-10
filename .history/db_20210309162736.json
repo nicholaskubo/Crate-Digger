@@ -243,7 +243,7 @@
       {
         "id": 31,
         "album name": "Ginger",
-        "cover": "https://m.media-amazon.com/images/I/815mzHS2A-L._SS500_.jpg",
+        "cover": "https://i.discogs.com/R-14477482-1575323817-4854.jpeg?bucket=discogs-images&fit=contain&format=auto&height=600&quality=90&width=600&signature=Y3V5fj1I1ZR0DKsr95Xx4g1c33L52znWTLVxfitvRkQ%3D",
         "artist": "BROCKHAMPTON",
         "vinyl color": "Red Translucent",
         "format": "2 × Vinyl, LP, Album, Limited Edition"
@@ -394,11 +394,20 @@
       },
       {
         "id": 50,
-        "album name": "+",
-        "cover": "https://images-na.ssl-images-amazon.com/images/I/81Nga9IJojL._SL1425_.jpg",
-        "artist": "Ed Sheeran",
-        "vinyl color": "Orange",
-        "format": "Vinyl, LP, Album"
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
+      },
+      {
+        "id": 51,
+        "album name": "",
+        "cover": "",
+        "artist": "",
+        "vinyl color": "",
+        "format": ""
       }
+
     ]
   }

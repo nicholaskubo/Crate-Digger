@@ -34,7 +34,7 @@ function showVinylInfo(vinyl) {
     let vinylCard = document.getElementById(vinyl.id)
     let title = document.createElement("h2")
     let artist = document.createElement("h3")
-    let vinylColor = document.createElement("h4")
+    let vinylColor = document.createElement("h5")
     let format = document.createElement("p")
 
     title.textContent = vinyl[`album name`]
@@ -43,4 +43,5 @@ function showVinylInfo(vinyl) {
     format.textContent = vinyl.format
 
     vinylCard.append(title, artist, vinylColor, format)
+
 }

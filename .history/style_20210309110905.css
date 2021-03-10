@@ -1,9 +1,11 @@
 * {
     background: #ffe6cc;
+    justify-content: center;
 }
 
 .card {
    float: left;
+   justify-content: center;
 
 }
 
@@ -11,7 +13,3 @@
     height: 300px;
     width: 300px;
 }
-
-/* p {
-    
-} */

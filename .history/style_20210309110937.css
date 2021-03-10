@@ -1,9 +1,10 @@
 * {
     background: #ffe6cc;
+    justify-content: center;
 }
 
 .card {
-   float: left;
+   float: inline-start;
 
 }
 
@@ -11,7 +12,3 @@
     height: 300px;
     width: 300px;
 }
-
-/* p {
-    
-} */

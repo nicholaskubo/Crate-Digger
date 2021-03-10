@@ -4,14 +4,12 @@
 
 .card {
    float: left;
-
+   width: 100px;
+   height: 100px;
+   background-size: cover;
 }
 
 .album-cover {
     height: 300px;
     width: 300px;
 }
-
-/* p {
-    
-} */
