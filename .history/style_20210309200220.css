@@ -1,0 +1,21 @@
+* {
+    background: #ffe6cc;
+}
+
+#vinyl-collection{
+    align-self: center;
+    
+}
+
+
+.card {
+   float: left;
+   height: fit-content;
+   width: 300px;
+
+}
+
+.album-cover {
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,18 @@
+* {
+    background: #ffe6cc;
+}
+
+.card {
+   float: left;
+   width: 300px;
+
+}
+
+.album-cover {
+    height: 300px;
+    width: 300px;
+}
+
+/* p {
+    
+} */

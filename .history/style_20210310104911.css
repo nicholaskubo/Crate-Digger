@@ -1,0 +1,43 @@
+* {
+    background: #ffe6cc;
+}
+
+#vinyl-collection{
+    align-self: center;
+    column-count: auto;
+    column-width: 285px;
+}
+
+
+.card {
+   /* float: left; */
+   page-break-inside: avoid;
+   height: fit-content;
+   width: 300px;
+   margin-bottom: 10px;
+
+}
+
+.album-cover {
+    height: 300px;
+    width: 300px;
+}
+
+#hide {
+    border: solid red 2px;
+}
+
+#deleteB {
+    border: solid red 3px;
+}
+
+.buttons {
+    display: flex;
+}
+
+#vinyl-header {
+    background-color: tan;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
