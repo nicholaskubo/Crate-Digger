@@ -45,7 +45,7 @@
 
 #submitButton {
     color: green;
-    background-color: greenyellow;
+    background-color: rgba(184, 201, 158, 0.797);
 }
 
 #vinyl-header {
@@ -53,7 +53,6 @@
     text-align: center;
     padding: 20px;
     margin-bottom: 10px;
-    color: #734d26;
 }
 
 #vinyl-form {

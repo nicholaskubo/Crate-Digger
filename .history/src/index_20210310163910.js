@@ -132,7 +132,7 @@ function showVinylInfo(vinyl) {
     deleteBtn.textContent = "Delete Album"
     deleteBtn.classList = "buttons"
     favoriteBtn.id = "favoriteB"
-    favoriteBtn.textContent = "Favorite"
+    favoriteBtn.textContent = "Favorite (x)"
     favoriteBtn.classList = "buttons"
     favorite.classList = "favorited"
     favorite.textContent = vinyl.favorite

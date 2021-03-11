@@ -37,15 +37,10 @@ function deleteVinyl(id) {
 function updateFavorite(favorite, id){
     fetch (`http://localhost:3000/vinyl/${id}`, {
         method: "PATCH",
-        headers: 
-        {
-            "Content-Type": "application/json",
-            Accept: "application/json"
-        },
-        body: JSON.stringify(favorite)
+        headers: {
+
+        }
     })
-    .then(response => response.json())
-    // .then(vinyl => console.log(vinyl))
 }
 
 //Dom manipulation
@@ -66,10 +61,6 @@ function makeVinyl(vinyl){
     container.appendChild(vinylCard)
 }
 
-function updateDomFavorite(id){
-    let vinyl = document.getElementById(id)
-}
-
 //Events
 document.querySelector("#vinyl-form").addEventListener("submit", handleSubmit)
 
@@ -87,27 +78,6 @@ function handleSubmit(e){
     }
     createVinyl(vinylObj)
 }
-
-function handleFavorite(e){
-    let vinylID = e.target.parentElement.id
-    let favorite = {
-        favorite: "Favorite"
-    }
-    let vinyl = document.getElementById(vinylID)
-    vinyl.querySelector(".favorited").innerText= "Favorite"
-    updateFavorite(favorite, vinylID)
-}
-
-function deleteFavorite(e){
-    let vinylID = e.target.parentElement.id
-    let favorite = {
-        favorite: ""
-    }
-    let vinyl = document.getElementById(vinylID)
-    vinyl.querySelector(".favorited").innerText= ""
-    updateFavorite(favorite, vinylID)
-}
-
 
 function showVinylInfo(vinyl) {
     let vinylCard = document.getElementById(vinyl.id)
@@ -135,7 +105,6 @@ function showVinylInfo(vinyl) {
     favoriteBtn.textContent = "Favorite"
     favoriteBtn.classList = "buttons"
     favorite.classList = "favorited"
-    favorite.textContent = vinyl.favorite
     vinylCard.classList = "card"
     vinylCard.id = vinyl.id
 
@@ -155,9 +124,9 @@ function showVinylInfo(vinyl) {
         deleteVinyl(vinyl.id)}
     })
 
-    favoriteBtn.addEventListener("click", handleFavorite)
-
-    favorite.addEventListener("click", deleteFavorite)
+    favoriteBtn.addEventListener("click", () => {
+        favorite.innerText = "Favorite"
+    })
 
 
     vinylCard.append(title, artist, vinylColor, format, favorite, btn, deleteBtn, favoriteBtn)

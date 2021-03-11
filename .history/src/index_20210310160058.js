@@ -45,7 +45,7 @@ function updateFavorite(favorite, id){
         body: JSON.stringify(favorite)
     })
     .then(response => response.json())
-    // .then(vinyl => console.log(vinyl))
+    .then(vinyl => updateDomFavorite(vinyl.id))
 }
 
 //Dom manipulation
@@ -98,17 +98,6 @@ function handleFavorite(e){
     updateFavorite(favorite, vinylID)
 }
 
-function deleteFavorite(e){
-    let vinylID = e.target.parentElement.id
-    let favorite = {
-        favorite: ""
-    }
-    let vinyl = document.getElementById(vinylID)
-    vinyl.querySelector(".favorited").innerText= ""
-    updateFavorite(favorite, vinylID)
-}
-
-
 function showVinylInfo(vinyl) {
     let vinylCard = document.getElementById(vinyl.id)
     
@@ -135,7 +124,7 @@ function showVinylInfo(vinyl) {
     favoriteBtn.textContent = "Favorite"
     favoriteBtn.classList = "buttons"
     favorite.classList = "favorited"
-    favorite.textContent = vinyl.favorite
+    // favorite.textContent = vinyl.favorite
     vinylCard.classList = "card"
     vinylCard.id = vinyl.id
 
@@ -156,8 +145,6 @@ function showVinylInfo(vinyl) {
     })
 
     favoriteBtn.addEventListener("click", handleFavorite)
-
-    favorite.addEventListener("click", deleteFavorite)
 
 
     vinylCard.append(title, artist, vinylColor, format, favorite, btn, deleteBtn, favoriteBtn)

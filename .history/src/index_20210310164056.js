@@ -91,10 +91,10 @@ function handleSubmit(e){
 function handleFavorite(e){
     let vinylID = e.target.parentElement.id
     let favorite = {
-        favorite: "Favorite"
+        favorite: "Favorite (x)"
     }
     let vinyl = document.getElementById(vinylID)
-    vinyl.querySelector(".favorited").innerText= "Favorite"
+    vinyl.querySelector(".favorited").innerText= "Favorite (x)"
     updateFavorite(favorite, vinylID)
 }
 

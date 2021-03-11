@@ -34,7 +34,7 @@
 }
 
 #favoriteB {
-    border: solid cornflowerblue 2px;
+    color: cornflowerblue;
 }
 
 .buttons {
@@ -43,17 +43,11 @@
     text-align: center;
 }
 
-#submitButton {
-    color: green;
-    background-color: greenyellow;
-}
-
 #vinyl-header {
     background-color: tan;
     text-align: center;
     padding: 20px;
     margin-bottom: 10px;
-    color: #734d26;
 }
 
 #vinyl-form {
@@ -67,3 +61,5 @@
     color: blue;
     text-align: center;
 }
+
+

@@ -101,7 +101,7 @@ function handleFavorite(e){
 function deleteFavorite(e){
     let vinylID = e.target.parentElement.id
     let favorite = {
-        favorite: ""
+        favorite: "Favorite"
     }
     let vinyl = document.getElementById(vinylID)
     vinyl.querySelector(".favorited").innerText= ""
@@ -157,7 +157,9 @@ function showVinylInfo(vinyl) {
 
     favoriteBtn.addEventListener("click", handleFavorite)
 
-    favorite.addEventListener("click", deleteFavorite)
+    favorite.addEventListener("click", () => {
+        console.log(favorite)
+    })
 
 
     vinylCard.append(title, artist, vinylColor, format, favorite, btn, deleteBtn, favoriteBtn)

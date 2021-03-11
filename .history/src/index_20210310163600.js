@@ -101,7 +101,7 @@ function handleFavorite(e){
 function deleteFavorite(e){
     let vinylID = e.target.parentElement.id
     let favorite = {
-        favorite: ""
+        favorite:
     }
     let vinyl = document.getElementById(vinylID)
     vinyl.querySelector(".favorited").innerText= ""

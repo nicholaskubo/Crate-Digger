@@ -13,8 +13,7 @@ function getVinyl () {
 function createVinyl(vinylObj){
     fetch ("http://localhost:3000/vinyl", {
         method: 'POST',
-        headers: 
-        {
+        headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(vinylObj)
@@ -32,20 +31,6 @@ function deleteVinyl(id) {
     .then(() => {
         document.getElementById(id).remove()
     })
-}
-
-function updateFavorite(favorite, id){
-    fetch (`http://localhost:3000/vinyl/${id}`, {
-        method: "PATCH",
-        headers: 
-        {
-            "Content-Type": "application/json",
-            Accept: "application/json"
-        },
-        body: JSON.stringify(favorite)
-    })
-    .then(response => response.json())
-    // .then(vinyl => console.log(vinyl))
 }
 
 //Dom manipulation
@@ -66,10 +51,6 @@ function makeVinyl(vinyl){
     container.appendChild(vinylCard)
 }
 
-function updateDomFavorite(id){
-    let vinyl = document.getElementById(id)
-}
-
 //Events
 document.querySelector("#vinyl-form").addEventListener("submit", handleSubmit)
 
@@ -88,27 +69,6 @@ function handleSubmit(e){
     createVinyl(vinylObj)
 }
 
-function handleFavorite(e){
-    let vinylID = e.target.parentElement.id
-    let favorite = {
-        favorite: "Favorite"
-    }
-    let vinyl = document.getElementById(vinylID)
-    vinyl.querySelector(".favorited").innerText= "Favorite"
-    updateFavorite(favorite, vinylID)
-}
-
-function deleteFavorite(e){
-    let vinylID = e.target.parentElement.id
-    let favorite = {
-        favorite: ""
-    }
-    let vinyl = document.getElementById(vinylID)
-    vinyl.querySelector(".favorited").innerText= ""
-    updateFavorite(favorite, vinylID)
-}
-
-
 function showVinylInfo(vinyl) {
     let vinylCard = document.getElementById(vinyl.id)
     
@@ -117,9 +77,7 @@ function showVinylInfo(vinyl) {
     let vinylColor = document.createElement("h4")
     let format = document.createElement("p")
     let btn = document.createElement("button")
-    let deleteBtn = document.createElement("button")
-    let favoriteBtn =document.createElement("button")
-    let favorite = document.createElement("h4")
+    let deletebtn = document.createElement("button")
 
     title.textContent = vinyl["album name"]
     artist.textContent = vinyl.artist
@@ -128,14 +86,9 @@ function showVinylInfo(vinyl) {
     btn.textContent = "Hide Info"
     btn.id = "hide"
     btn.classList ="buttons"
-    deleteBtn.id = "deleteB"
-    deleteBtn.textContent = "Delete Album"
-    deleteBtn.classList = "buttons"
-    favoriteBtn.id = "favoriteB"
-    favoriteBtn.textContent = "Favorite"
-    favoriteBtn.classList = "buttons"
-    favorite.classList = "favorited"
-    favorite.textContent = vinyl.favorite
+    deletebtn.id = "deleteB"
+    deletebtn.textContent = "Delete Album"
+    deletebtn.classList = "buttons"
     vinylCard.classList = "card"
     vinylCard.id = vinyl.id
 
@@ -150,15 +103,11 @@ function showVinylInfo(vinyl) {
         vinylCard.appendChild(vinylCover)
     })
     
-    deleteBtn.addEventListener("click",() => {
-        if (confirm("Are you sure you want to delete this vinyl?")) {
+    deletebtn.addEventListener("click",() => {
+        if (!confirm("Delete?")) {
         deleteVinyl(vinyl.id)}
     })
 
-    favoriteBtn.addEventListener("click", handleFavorite)
 
-    favorite.addEventListener("click", deleteFavorite)
-
-
-    vinylCard.append(title, artist, vinylColor, format, favorite, btn, deleteBtn, favoriteBtn)
+    vinylCard.append(title, artist, vinylColor, format, btn, deletebtn)
 }
