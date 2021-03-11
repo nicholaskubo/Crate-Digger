@@ -1,0 +1,70 @@
+* {
+    /* background: #ffe6cc; */
+    background: url(https://i.pinimg.com/originals/4c/f2/f0/4cf2f0b3f95698b0758a239d7fea30f0.jpg);
+}
+
+#vinyl-collection{
+    align-self: center;
+    column-count: auto;
+    column-width: 285px;
+}
+
+
+.card {
+   /* float: left; */
+   page-break-inside: avoid;
+   height: fit-content;
+   width: 300px;
+   margin-bottom: 10px;
+
+}
+
+.album-cover {
+    height: 300px;
+    width: 300px;
+}
+
+#hide {
+    border: solid green 2px;
+}
+
+#deleteB {
+    border: solid red 2px;
+    color: red;
+    /* margin-left: 30px; */
+}
+
+#favoriteB {
+    border: solid cornflowerblue 2px;
+}
+
+.buttons {
+    display: inline-flex;
+    margin: 10px;
+    text-align: center;
+}
+
+#submitButton {
+    color: green;
+    background-color: greenyellow;
+}
+
+#vinyl-header {
+    background-color: tan;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #734d26;
+}
+
+#vinyl-form {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.favorited {
+    color: blue;
+    text-align: center;
+}

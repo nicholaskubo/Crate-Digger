@@ -1,24 +1,12 @@
 * {
     /* background: #ffe6cc; */
-    /* background: url(https://i.pinimg.com/originals/4c/f2/f0/4cf2f0b3f95698b0758a239d7fea30f0.jpg); */
-    font-family: sans-serif;
-}
-
-body{
-    /* background: #ffe6cc; */
-    background: #fbd383;
-}
-
-#logo{
-    /* height: 500px;
-    width: 500px; */
+    background: url(https://i.pinimg.com/originals/4c/f2/f0/4cf2f0b3f95698b0758a239d7fea30f0.jpg);
 }
 
 #vinyl-collection{
     align-self: center;
     column-count: auto;
     column-width: 285px;
-    background: url(https://i.pinimg.com/originals/4c/f2/f0/4cf2f0b3f95698b0758a239d7fea30f0.jpg);
 }
 
 
@@ -29,7 +17,6 @@ body{
    width: 300px;
    margin-bottom: 10px;
 
-
 }
 
 .album-cover {
@@ -39,23 +26,16 @@ body{
 
 #hide {
     border: solid green 2px;
-    background: #ffe6cc
 }
 
 #deleteB {
     border: solid red 2px;
     color: red;
-    background: #ffe6cc
     /* margin-left: 30px; */
 }
 
 #favoriteB {
     border: solid cornflowerblue 2px;
-    background: #ffe6cc
-}
-
-#favoriteB:focus{
-    background: cornflowerblue;
 }
 
 .buttons {
@@ -66,11 +46,11 @@ body{
 
 #submitButton {
     color: green;
-    background: greenyellow;
+    background-color: greenyellow;
 }
 
 #vinyl-header {
-    /* background-color: tan; */
+    background-color: tan;
     text-align: center;
     padding: 20px;
     margin-bottom: 10px;
@@ -85,14 +65,8 @@ body{
 }
 
 .favorited {
-    border-radius: 5px;
-    color: cornflowerblue;
+    color: blue;
     text-align: center;
-    font-size: 20px;
-    background: #e6faff;
-    margin-left: 95px;
-    margin-right: 95px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 #album_name{

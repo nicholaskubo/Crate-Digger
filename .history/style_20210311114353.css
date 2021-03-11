@@ -85,13 +85,13 @@ body{
 }
 
 .favorited {
-    border-radius: 5px;
     color: cornflowerblue;
     text-align: center;
     font-size: 20px;
-    background: #e6faff;
-    margin-left: 95px;
-    margin-right: 95px;
+    background: #b3f0ff;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid cornflowerblue 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 

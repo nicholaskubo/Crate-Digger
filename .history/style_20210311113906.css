@@ -85,13 +85,9 @@ body{
 }
 
 .favorited {
-    border-radius: 5px;
-    color: cornflowerblue;
+    color: #80e5ff;
     text-align: center;
-    font-size: 20px;
-    background: #e6faff;
-    margin-left: 95px;
-    margin-right: 95px;
+    text-decoration: underline dotted blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 

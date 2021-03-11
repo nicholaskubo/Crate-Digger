@@ -1,17 +1,11 @@
 * {
     /* background: #ffe6cc; */
     /* background: url(https://i.pinimg.com/originals/4c/f2/f0/4cf2f0b3f95698b0758a239d7fea30f0.jpg); */
-    font-family: sans-serif;
+    font-family: ;
 }
 
 body{
-    /* background: #ffe6cc; */
-    background: #fbd383;
-}
-
-#logo{
-    /* height: 500px;
-    width: 500px; */
+    background: #ffe6cc;
 }
 
 #vinyl-collection{
@@ -70,7 +64,7 @@ body{
 }
 
 #vinyl-header {
-    /* background-color: tan; */
+    background-color: tan;
     text-align: center;
     padding: 20px;
     margin-bottom: 10px;
@@ -85,14 +79,10 @@ body{
 }
 
 .favorited {
-    border-radius: 5px;
-    color: cornflowerblue;
+    color: blue;
     text-align: center;
-    font-size: 20px;
-    background: #e6faff;
-    margin-left: 95px;
-    margin-right: 95px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    text-decoration: underline;
+    font-family: 
 }
 
 #album_name{

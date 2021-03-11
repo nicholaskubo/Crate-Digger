@@ -90,7 +90,7 @@ function handleSubmit(e){
 function handleFavorite(e){
     let vinylID = e.target.parentElement.id
     let favorite = {
-        favorite: "Favorite"
+        favorite: "Favorites"
     }
     let vinyl = document.getElementById(vinylID)
     vinyl.querySelector(".favorited").innerText= "Favorite"

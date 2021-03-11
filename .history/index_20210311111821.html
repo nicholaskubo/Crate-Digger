@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src/index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>My Vinyl Collection</title>
+</head>
+<body>
+    <header id="vinyl-header">
+        <img src= "./resources/logo" alt="Logo">
+        <!-- <h1>Crate Digger</h1>
+        <h2>Vinyl Collection Management</h2> -->
+    </header>
+    <form id="vinyl-form">
+    <!-- <label for="album_name">Album Name</label> -->
+    <input type="text" id="album_name" name="album_name" placeholder="Album Name" />
+    <!-- <label for="image_url">Image URL</label> -->
+    <input type="text" id="image_url" name="image_url" placeholder="Image URL"/>
+    <!-- <label for="artist">Artist</label> -->
+    <input type="text" id="artist" name="artist" placeholder="Artist"/>
+    <!-- <label for="vinyl_color">Vinyl Color</label> -->
+    <input type="text" id="vinyl_color" name="vinyl_color" placeholder="Vinyl Color"/>
+    <!-- <label for="format">Format</label> -->
+    <input type="text" id="format" name="format" placeholder="Format"/>
+    <button type="submit" id="submitButton">Add Vinyl</button>
+
+    </form>
+    <div id="vinyl-collection"></div>
+</body>
+</html>
